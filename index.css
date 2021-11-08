@@ -1,0 +1,23 @@
+body{
+background-color:#dddddd;
+margin-right: auto;
+margin-left: auto;
+width: 700px;
+}
+
+head{
+  width: auto;
+  height: 80px;
+  
+}
+
+
+
+
+
+
+canvas{
+  width: 544px;
+  height: 408px;
+  border: solid 1px #000;
+}

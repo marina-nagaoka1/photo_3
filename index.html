@@ -1,0 +1,29 @@
+<DOCTYPE HTML5>
+<html>
+ <head>
+   <title>Photoframe</title>
+  <!--CSSファイルの読み込み-->
+  <link rel="stylesheet" type="text/css" href="./index.css">
+ </head>
+ <body>
+   <img src="photoframe.jpg" alt="Photoframe">
+
+  <!--ファイルの読み込み　拡張子をPNG, JPEGに設定-->
+  <input type="file" id="selectFile" accept=".png,.jpeg">
+
+
+  <section id="contents">
+    <div class="flex-container">
+
+  <!--canvasの描画-->
+  <!-- 読み込んだファイルのcanvas -->
+      <div class="flex-item">
+  <canvas id="concat" width="300" height="200"><canvas>
+
+
+    </section>
+
+  <!--.jsファイルの読み込み-->
+  <script type="text/javascript" src="index.js"></script>
+ </body>
+</html>
